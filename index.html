@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keyword" content="Webエンジニア,WebEngineer,ジロー,Jiro,プログラミング,ポートフォリオサイト">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/favicon.png">
+  <title>WebEngineer-Jiroポートフォリオサイト</title>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top bg-secondary">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold" href="#">サイトTOPへ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto lead">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="#">Home</a>
+          </li>
+          <li class="nav-item ml-3 active">
+            <a class="nav-link font-weight-bold" href="#about">about</a>
+          </li>
+          <li class="nav-item ml-3 active">
+            <a class="nav-link font-weight-bold" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="top py-5">
+    <div class="container py-5 text-center mt-5">
+      <h1 class=" display-4 font-weight-bold mb-4 py-5">ジローのエンジニアへの道</h1>
+      <p class="lead py-3 font-weight-bold">未経験のWebエンジニアとしてキャリアをスタート<br>5年以内に独立して、フリーランスエンジニアとなり、場所を選ばない働き方の実現に向けて・・・</p>
+    </div>
+  </section>
+
+
+  <section class="about py-5 bg-light" id="about">
+    <div class="container">
+      <h2 class="text-center text-danger py-4 font-weight-bold mb-5">ABOUT ME</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./img/IMG_3080.JPG" alt="写真" class="my-photo w-75 ml-4">
+        </div>
+        <div class="col-md-6">
+          <p class="lead font-weight-bold mb-4">ジロー(Jiro)<span class="text-primary font-weight-bold ml-4"> Web Engineer</span></p>
+          <div class="about-item w-75">
+            <p class="mb-4">筋トレとプロレス観戦とカラオケが好きな現在大学4年生21歳</p> <p class="mb-4">使える言語：HTML・CSS(今後使える言語を増やしていく予定。)</p><p>現在は愛知県に住んでおり、4月から東京の一部上場企業でWebエンジニアとしてのキャリアを歩み始めます。</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact py-5 " id="contact">
+    <div class="container">
+      <h2 class="text-center text-danger font-weight-bold">Contact Me</h2>
+      <h3 class="text-center mb-5 py-3">いつでもお気軽にご連絡下さい</h3>
+      <div class="card-deck mb-5 text-center">
+        <div class="card border-0">
+          <img src="img/whatsapp.png" class="card-img-top col-md-4 mx-auto d-block" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">電話</h5>
+            <a class="text-body" href="tel:01234567890">012-3456-7890</a>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img src="./img/gmail.png" class="card-img-top col-md-4 mx-auto d-block " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">メールアドレス</h5>
+            <a class="text-body" href="mailto:example@gmail.com">example@gmail.com</a>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img src="./img/map.png" class="card-img-top col-md-4 mx-auto d-block" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">オフィス</h5>
+            <a class="text-body" href="map:北海道帯広市×-××××">〒0123-4567 <br>北海道帯広市×-××××</a>
+          </div>
+        </div>
+      </div>
+      <form>
+        <div class="form-group">
+          <div class="form-row">
+            <div class="col mb-5">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <input type="email" class="form-control mb-5" id="exampleInputEmail1" placeholder="Email address" aria-describedby="emailHelp">
+          <div class="mb-4">
+            <textarea class="form-control" id="validationTextarea" placeholder="Your Message"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-danger p-3">Submit</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark py-2">
+    <div class="container">
+      <p class="text-white text-right">© Copyright | Jiro Engineer All Right Reserved </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
